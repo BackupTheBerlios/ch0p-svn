@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testexpressions>
+	<expr>
+        <term value="a"/>
+        <term value="b"/>
+        <term value="a"/>
+    </expr>
+	<expr>
+        <term value="a"/>
+        <term value="a"/>
+        <term value="a"/>
+    </expr>
+	<expr>
+        <term value="a"/>
+        <term value="x"/>
+        <term value="a"/>
+    </expr>
+	<expr>
+        <term value="a"/>
+        <term value="b"/>
+        <term value="x"/>
+        <term value="a"/>
+    </expr>
+	<expr>
+        <term value="a"/>
+        <term value="b"/>
+        <term value="b"/>
+        <term value="a"/>
+    </expr>
+</testexpressions>

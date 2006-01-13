@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="simple-grammar.xsd" startsymbol="S0">
+	<rule>
+		<lhs><nonterm value="S0"/></lhs>
+		<rhs><nonterm value="S1"/></rhs>
+	</rule>
+	<rule>
+		<lhs><nonterm value="S1"/></lhs>
+		<rhs><term value="a"/><nonterm value="S1"/><term value="b"/></rhs>
+	</rule>
+	<rule>
+		<lhs><nonterm value="S1"/></lhs>
+		<rhs><term value="e"/></rhs>
+	</rule>
+</grammar>

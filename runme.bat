@@ -1,0 +1,1 @@
+java ch0p.RunMe "g3.xml" "c:\temp\data.txt" "c:\temp\sorted.txt" "c:\temp\permfree.txt" 12

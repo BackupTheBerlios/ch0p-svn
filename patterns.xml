@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testpattern>
+	<regex>
+        <any/>
+        <term value="b" optional="true"/>
+        <term value="a" repeatable="true"/>
+    </regex>
+	<regex>
+        <term value="a"/>
+        <one optinal="true" repeatable="true"><term value="b" optional="true"/><term value="x"/></one>
+        <term value="a"/>
+    </regex>
+    <regex>
+        <term value="a"/>
+        <all optinal="true" repeatable="true"><term value="b" optional="true"/><term value="x"/><term value="y"/></all>
+        <term value="a"/>
+    </regex>
+    <regex>
+        <term value="a"/>
+        <some optinal="true" repeatable="true"><term value="b"/><term value="x"/></some>
+        <term value="a"/>
+    </regex>
+</testpattern>
